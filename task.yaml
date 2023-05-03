@@ -7,6 +7,6 @@
      - name: Service starting 
        service: name=httpd state=started enabled=yes
      - name: website
-       file: dest=/var/www/html/ashok.html state=touch 
+       file: dest=/var/www/html/balu.html state=touch 
      - name: adding a line in file
-       lineinfile: dest=/var/www/html/ashok.html line='welcome to varains and nareshins' 
+       lineinfile: dest=/var/www/html/balu.html line='welcome to varains and nareshins' 
